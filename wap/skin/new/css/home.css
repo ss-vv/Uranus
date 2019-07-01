@@ -1,0 +1,102 @@
+﻿
+.homelayout {
+	width: auto;
+}
+.homelist {
+	border-radius: 10px;
+	background-color: #15365a;
+	padding: 10px 0px 0px;
+	border:1px #1c4571 solid;
+}
+.clist li {
+	float: left;
+	width: 95px;
+	margin-left: 10px;
+	margin-bottom:10px;
+}
+.clist li a, .clist li a:visited {
+	display: block;
+	background-color: #204874;
+	border: 1px #4b6f94 solid;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+}
+.clist li a:hover {
+	background-color: #5f7fb2;
+	border: 1px #5f7fb2 solid;
+}
+.clist li a span {
+	display: block;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.clist img {
+margin-top:5px;
+	margin-left: 10px;
+}
+.homebox {
+	margin-top:10px;
+	border-radius: 8px;
+	border: 1px #4b6f94 solid;
+	background-color: #15365a;
+	text-align: left;
+}
+
+.hometitle {
+	background-color: #1c4571;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px 5px 0 0;
+	padding: 10px;
+	border-bottom: 1px #4b6f94 solid;
+	padding-left: 40px;
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	font-family: 微软雅黑;
+	height: 20px;
+	color: #fff;
+}
+.hometitle a, .hometitle a:visited {
+	float:right;
+	color: #fff;
+	border-radius: 5px;
+	padding: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*background-color: #5271a3;*/
+	font-weight: normal;
+	font-size: 10px!important;
+	font-family: 微软雅黑;
+}
+
+#tips {
+	background-image: url('/images/common/iconb.png');
+}
+
+ul.tipslist {
+    width:auto;
+	margin-top:5px;
+}
+ul.tipslist li {
+	height:25px;
+	line-height:25px;
+	background-image: url('/images/common/point.jpg');
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	box-sizing: border-box;
+}
+ul.tipslist li a {
+	font-weight: bold;
+	display: block;
+	color:#fff;
+}
+ul.tipslist li em {
+	float:right;
+	margin-right:10px;
+	color: #fff;
+}
+
+
