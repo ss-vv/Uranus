@@ -1,7 +1,7 @@
 ﻿exports.cp=[
  
-	
- 	/**极速 1.5 赛车*/
+/*
+ 	// 极速 1.5 赛车
     {
         title:'极速赛车',
         source:'BOT',
@@ -11,7 +11,7 @@
 
         option:{
 
-            host:"127.0.0.2",
+            host:"127.0.0.1",
             timeout:50000,
             path: '/sylot/js_pk10',
             headers:{
@@ -38,7 +38,7 @@
         }
     },
 
-    /**极速 1.5 时时彩*/
+    // 极速 1.5 时时彩
     {
         title:'极速时时彩',
         source:'BOT',
@@ -48,7 +48,7 @@
 
         option:{
 
-            host:"127.0.0.2",
+            host:"127.0.0.1",
             timeout:50000,
             path: '/sylot/js_ssc',
             headers:{
@@ -75,7 +75,7 @@
         }
     },
 
-    /**极速 5 六合彩*/
+    // 极速 5 六合彩
     {
         title:'极速六合彩',
         source:'BOT',
@@ -85,7 +85,7 @@
 
         option:{
 
-            host:"127.0.0.2",
+            host:"127.0.0.1",
             timeout:50000,
             path: '/sylot/js_lhc',
             headers:{
@@ -120,7 +120,7 @@
 
         option:{
 
-            host:"127.0.0.2",
+            host:"127.0.0.1",
             timeout:5000,
             path: '/sylot/js_jsft',
             headers:{
@@ -158,7 +158,7 @@
 
 		option:{
 
-			host:"127.0.0.2",
+			host:"127.0.0.1",
 			timeout:50000,
 			path: '/api/api1.php?id=10011',
 			headers:{
@@ -210,7 +210,7 @@
 	},          
  
 
-
+*/
 
  
  
@@ -222,7 +222,7 @@
 		timer:'bjpk10',
 
 		option:{
-			host:"127.0.0.2",
+			host:"127.0.0.1",
 			timeout:50000,
 			path: '/xml/pk10.php',
 			headers:{
@@ -249,7 +249,7 @@
 	},
 	
 
-	
+/*	
 
 			{
 		title:'广东快乐十分',
@@ -260,7 +260,7 @@
 
 	option:{
 
-			host:"127.0.0.2",
+			host:"127.0.0.1",
 			timeout:50000,
 			path: '/api/api1.php?id=1008',
 			headers:{
@@ -327,7 +327,7 @@
 		timer:'klsf', 
 		option:{
 
-			host:"127.0.0.2",
+			host:"127.0.0.1",
 			timeout:50000,
 			path: '/api/api2.php?id=10010',
 			headers:{
@@ -393,7 +393,7 @@
 		enable:true,                                                                                            //
 		timer:'bjk8',                                                                                         //
 		option:{                                                                                                //
-			host:"127.0.0.2",                                                                                   //
+			host:"127.0.0.1",                                                                                   //
 			timeout:50000,                                                                                      //北
 			path: '/xml/bjkl8.php',                                                                       //京
 			headers:{                                                                                           //PK
@@ -468,7 +468,7 @@
 
 		option:{
 
-			host:"127.0.0.2",
+			host:"127.0.0.1",
 			timeout:50000,
 			path: '/api/api1.php?id=1006',
 			headers:{
@@ -501,7 +501,7 @@
 	timer:'lhc',
 	
 	option:{
-		host:"127.0.0.2",
+		host:"127.0.0.1",
 		timeout:500000,
 		path: '/api/api1.php?id=6001',
 		headers:{
@@ -530,7 +530,7 @@
 		timer:'pcdd',
 
 		option:{
-		host:"127.0.0.2",
+		host:"127.0.0.1",
 		timeout:500000,
 		path: '/api/api1.php?id=28',
 			headers:{
@@ -555,7 +555,7 @@
 		enable:true,                                                                                            //
 		timer:'gd11x5',                                                                                         //
 		option:{                                                                                                //
-			host:"127.0.0.2",                                                                                   //
+			host:"127.0.0.1",                                                                                   //
 			timeout:50000,                                                                                      //北
 			path: '/xml/gd11x5.php',                                                                       //京
 			headers:{                                                                                           //PK
@@ -580,9 +580,7 @@
 			}                                                                                                   //北
 		}                                                                                                       //京
 	},                                 
-	
-	
-	
+*/
 	{
 		title:'幸运飞艇',
 		source:'国外网',
@@ -592,7 +590,7 @@
 
 		option:{
 
-			host:"127.0.0.2",
+			host:"127.0.0.1",
 			timeout:30000,
 			path: '/xml/xyft.php',
 			headers:{

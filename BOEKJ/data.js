@@ -172,7 +172,7 @@ function run(conf){
 function submitData(data, conf){
 	log('提交从'+conf.source+'采集的'+conf.title+'第'+data.number+'数据：'+data.data);
 	try{
-		var client=mysql.createClient(config.dbinfo);
+		var client=mysql.createConnection(config.dbinfo);
 	}catch(err){
 		throw('连接数据库失败');
 	}
@@ -233,9 +233,10 @@ function requestKj(type,number){
 
 function createMySQLClient(){
 	try{
-		return mysql.createClient(config.dbinfo).on('error', function(err){
+		return mysql.createConnection(config.dbinfo).on('error', function(err){
 			throw('连接数据库失败');
 		});
+
 	}catch(err){
 		log('连接数据库失败：'+err);
 		return false;
@@ -485,7 +486,7 @@ http.createServer(function(req, res){
 function submitDataInput(data){
 	log('提交从前台录入第'+data.number+'数据：'+data.data);
 	try{
-		var client=mysql.createClient(config.dbinfo);
+		var client=mysql.createConnection(config.dbinfo);
 	}catch(err){
 		throw('连接数据库失败');
 	}
