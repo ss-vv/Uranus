@@ -476,3 +476,4 @@ class WebBase extends CObject{
 	
 
 }
+?>

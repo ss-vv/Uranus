@@ -2,7 +2,7 @@
 class Withdraw extends WebLoginBase{
 	
 	public final function getWithDrawListdo(){
-		$this->display('Withdraw/getWithDrawList.php');
+		$this->display('withdraw/getWithDrawList.php');
 	}
 
 	/**

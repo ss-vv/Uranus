@@ -46,3 +46,4 @@ class Index extends WebBase{
 	}	
 	
 }
+?>

@@ -4,3 +4,5 @@ class Config extends WebLoginBase{
 		$this->display('config/config.php');
 	}
 }
+
+?>

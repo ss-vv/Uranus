@@ -2,35 +2,35 @@
 class Userrech extends WebLoginBase{
 	
 	public final function getUserRechCfgdo(){
-		$this->display('Userrech/getUserRechCfg.php');
+		$this->display('userrech/getUserRechCfg.php');
 	}
 	
 	public final function getRechListdo(){
-		$this->display('Userrech/getRechList.php');
+		$this->display('userrech/getRechList.php');
 	}
 	
 	public final function getRechDetaildo(){
-		$this->display('Userrech/getRechDetail.php');
+		$this->display('userrech/getRechDetail.php');
 	}
 
 	public final function detaildo(){
-		$this->display('Userrech/detail.php');
+		$this->display('userrech/detail.php');
 	}
 	
 	public final function getStatBetsdo(){
-		$this->display('Userrech/getStatBets.php');
+		$this->display('userrech/getStatBets.php');
 	}
 
 	public final function getTotalStatBetsdo(){
-		$this->display('Userrech/getTotalStatBets.php');
+		$this->display('userrech/getTotalStatBets.php');
 	}
 	
 	public final function onlinePaydo(){
-		$this->display('Userrech/onlinePay.php');
+		$this->display('userrech/onlinePay.php');
 	}
 	
 	public final function savedo(){
-		$this->display('Userrech/save.php');
+		$this->display('userrech/save.php');
 	}
 
 	public final function getRechId(){

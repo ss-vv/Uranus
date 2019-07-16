@@ -46,3 +46,5 @@ class Safe extends WebLoginBase{
         echo '修改提款密码失败';
     }
 }
+
+?>

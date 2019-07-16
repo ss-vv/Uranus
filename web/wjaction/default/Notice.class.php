@@ -11,3 +11,5 @@ class Notice extends WebLoginBase{
 	}
 	
 }
+
+?>

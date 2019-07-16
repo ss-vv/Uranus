@@ -1413,3 +1413,6 @@ class Bet{
 	return $num;
     }
 }
+
+?>
+

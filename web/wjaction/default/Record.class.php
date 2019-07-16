@@ -7,3 +7,4 @@ class Record extends WebLoginBase{
 		$this->display('record/bet-info.php', 0 , intval($id));
 	}
 }
+?>

@@ -18,3 +18,4 @@ class Daili extends WebLoginBase{
 		$this->display('daili/dailigetUserBets.php');
 	}
 }
+?>

@@ -35,3 +35,4 @@ class Report extends WebLoginBase{
 	
 	
 }
+?>

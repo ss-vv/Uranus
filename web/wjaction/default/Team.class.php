@@ -447,3 +447,6 @@ class Team extends WebLoginBase{
 		}
 	}
 }
+
+?>
+
