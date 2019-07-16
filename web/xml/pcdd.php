@@ -1,4 +1,5 @@
-<?
+<?php
+
 $api = 'https://api.zao28.com/News?name=xy28&type=json';
 
 $json = file_get_contents( $api );

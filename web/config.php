@@ -7,7 +7,7 @@ $conf['db']['dsn']='mysql:host=127.0.0.1;dbname=boe2017;charset=utf8';
 $dbname='boe2017';
 $dbhost='127.0.0.1';
 $conf['db']['user']='root';
-$conf['db']['password']='T3st1234!';
+$conf['db']['password']='root';
 $conf['db']['charset']='utf8';
 $conf['db']['prename']='ssc_';
 

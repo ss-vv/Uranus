@@ -27,10 +27,10 @@ class Api extends WebBase{
 	}
 	
 	public final function checkLoginJsdo(){
-		$this->display('Api/checkLoginJs.php');
+		$this->display('api/checkLoginJs.php');
 	}
 	public final function getServerDatado(){
-		$this->display('Api/getServerData.php');
+		$this->display('api/getServerData.php');
 	}
 
 	public final function logoutdo(){

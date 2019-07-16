@@ -30,7 +30,7 @@ class Staticdata extends WebLoginBase{
 		$this->display('staticdata/CurIssue.php');
 	}
 	public final function nextissuejs(){
-		$this->display('staticdata/nextissue.php');
+		$this->display('staticdata/NextIssue.php');
 	}
 
 	public final function stat_gamejs(){

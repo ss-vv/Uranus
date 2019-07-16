@@ -1,4 +1,5 @@
-<?
+<?php
+
 /*$api = 'http://old.1680210.com/Open/CurrentOpen?code=1008';*/
 $api = 'http://api.api68.com/pks/getLotteryPksInfo.do?lotCode=10057';
 $resource = file_get_contents($api);  
@@ -23,3 +24,7 @@ function tmp($v){
 	$cr=implode(',',array_map('tmp',array_slice(explode(',',$cr),0,20)));
 echo '<xml>
 <row expect="'.$ct.'" opencode="'.$cr.'" opentime="'.str_replace('/','-',$cd).'"/>
+</xml>';
+
+?>
+

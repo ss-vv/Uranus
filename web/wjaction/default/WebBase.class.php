@@ -2,7 +2,7 @@
 /**
  * 前台页面基类 DAVID UPDATE 2016-03-01
  */
-class WebBase extends Object{
+class WebBase extends CObject{
 	public $controller;
 	public $action;
 	public $memberSessionName='member-session-name';

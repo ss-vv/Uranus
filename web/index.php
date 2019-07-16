@@ -1,7 +1,7 @@
 <?php
 
 require 'lib/core/DBAccess.class';
-require 'lib/core/Object.class';
+require 'lib/core/CObject.class';
 require 'wjaction/default/WebBase.class.php';
 require 'wjaction/default/WebLoginBase.class.php';
 
@@ -62,7 +62,7 @@ $action=$action.$action2;
 }
 $action=str_replace('.','',$action);
 $file=$conf['action']['modals'].$control.'.class.php';
-if(!is_file($file)) notfound('找不到控制器');
+if(!is_file($file)) notfound('找不到控制器'.$file);
 try{
 	require $file;
 }catch(Exception $e){
@@ -74,7 +74,7 @@ if(!class_exists($control)) notfound('找不到控制器1');
 $jms=new $control($conf['db']['dsn'], $conf['db']['user'], $conf['db']['password']);
 $jms->debugLevel=$conf['debug']['level'];
 
-print_r('载入'.$control.'/'.$action);
+//print_r('载入'.$control.'/'.$action);
 if(!method_exists($jms, $action)) notfound('方法'.$control.'/'.$action.'不存在');
 $reflection=new ReflectionMethod($jms, $action);
 if($reflection->isStatic()) notfound('不允许调用Static修饰的方法');

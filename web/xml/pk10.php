@@ -1,4 +1,4 @@
-<?
+<?php
 $api = 'http://api.api68.com/pks/getLotteryPksInfo.do?lotCode=10001';
 $resource = file_get_contents( $api );  
 $data = json_decode( $resource , 1 );
@@ -17,3 +17,5 @@ $hm=substr($hm,0,59);
 echo '<xml>
 <row expect="'.$rq.'" opencode="'.$hm.'" opentime="'.str_replace('/','-',$sj).'"/>
 </xml>';
+
+?>
