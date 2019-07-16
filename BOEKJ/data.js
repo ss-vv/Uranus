@@ -254,7 +254,7 @@ function calcJ(data, flag){
 			log("读取投注出错："+err);
 		}else{
 			var sql, sqls=[];
-			sql='call kanJiang(?, ?, ?, ?)';
+			sql='call kanJiang(?,?,?,?)';
 			bets.forEach(function(bet){
 				var fun;
 				try{
@@ -308,7 +308,7 @@ function guestcalcJ(data, flag){
 			log("读取投注出错："+err);
 		}else{
 			var sql, sqls=[];
-			sql='call guestkanJiang(?, ?, ?, ?)';
+			sql='call guestkanJiang(?,?,?,?)';
 			bets.forEach(function(bet){
 				var fun;
 				try{
