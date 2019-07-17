@@ -1,4 +1,7 @@
-﻿exports.cp=[
+﻿
+let host = '127.0.0.1'
+
+exports.cp=[
  
 /*
  	// 极速 1.5 赛车
@@ -11,7 +14,7 @@
 
         option:{
 
-            host:"127.0.0.1",
+            host:host,
             timeout:50000,
             path: '/sylot/js_pk10',
             headers:{
@@ -48,7 +51,7 @@
 
         option:{
 
-            host:"127.0.0.1",
+            host:host,
             timeout:50000,
             path: '/sylot/js_ssc',
             headers:{
@@ -85,7 +88,7 @@
 
         option:{
 
-            host:"127.0.0.1",
+            host:host,
             timeout:50000,
             path: '/sylot/js_lhc',
             headers:{
@@ -120,7 +123,7 @@
 
         option:{
 
-            host:"127.0.0.1",
+            host:host,
             timeout:5000,
             path: '/sylot/js_jsft',
             headers:{
@@ -158,7 +161,7 @@
 
 		option:{
 
-			host:"127.0.0.1",
+			host:host,
 			timeout:50000,
 			path: '/api/api1.php?id=10011',
 			headers:{
@@ -222,7 +225,7 @@
 		timer:'bjpk10',
 
 		option:{
-			host:"127.0.0.1",
+			host:host,
 			timeout:50000,
 			path: '/xml/pk10.php',
 			headers:{
@@ -260,7 +263,7 @@
 
 	option:{
 
-			host:"127.0.0.1",
+			host:host,
 			timeout:50000,
 			path: '/api/api1.php?id=1008',
 			headers:{
@@ -327,7 +330,7 @@
 		timer:'klsf', 
 		option:{
 
-			host:"127.0.0.1",
+			host:host,
 			timeout:50000,
 			path: '/api/api2.php?id=10010',
 			headers:{
@@ -393,7 +396,7 @@
 		enable:true,                                                                                            //
 		timer:'bjk8',                                                                                         //
 		option:{                                                                                                //
-			host:"127.0.0.1",                                                                                   //
+			host:host,                                                                                   //
 			timeout:50000,                                                                                      //北
 			path: '/xml/bjkl8.php',                                                                       //京
 			headers:{                                                                                           //PK
@@ -468,7 +471,7 @@
 
 		option:{
 
-			host:"127.0.0.1",
+			host:host,
 			timeout:50000,
 			path: '/api/api1.php?id=1006',
 			headers:{
@@ -501,7 +504,7 @@
 	timer:'lhc',
 	
 	option:{
-		host:"127.0.0.1",
+		host:host,
 		timeout:500000,
 		path: '/api/api1.php?id=6001',
 		headers:{
@@ -530,7 +533,7 @@
 		timer:'pcdd',
 
 		option:{
-		host:"127.0.0.1",
+		host:host,
 		timeout:500000,
 		path: '/api/api1.php?id=28',
 			headers:{
@@ -555,7 +558,7 @@
 		enable:true,                                                                                            //
 		timer:'gd11x5',                                                                                         //
 		option:{                                                                                                //
-			host:"127.0.0.1",                                                                                   //
+			host:host,                                                                                   //
 			timeout:50000,                                                                                      //北
 			path: '/xml/gd11x5.php',                                                                       //京
 			headers:{                                                                                           //PK
@@ -590,7 +593,7 @@
 
 		option:{
 
-			host:"127.0.0.1",
+			host:host,
 			timeout:30000,
 			path: '/xml/xyft.php',
 			headers:{

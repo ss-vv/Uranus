@@ -17,5 +17,3 @@ $hm=substr($hm,0,59);
 echo '<xml>
 <row expect="'.$rq.'" opencode="'.$hm.'" opentime="'.str_replace('/','-',$sj).'"/>
 </xml>';
-
-?>

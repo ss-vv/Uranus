@@ -1,6 +1,6 @@
 <?php
 require 'lib/core/DBAccess.class';
-require 'lib/core/Object.class';
+require 'lib/core/CObject.class';
 require 'wjaction/admin/AdminBase.class.php';
 
 require 'config.admin.php';

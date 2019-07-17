@@ -4,7 +4,7 @@
 	if($para['username']){
 		$para['username']=wjStrFilter($para['username']);
 		if(!ctype_alnum($para['username'])) throw new Exception('用户名包含非法字符,请重新输入');
-		$userWhere=" and username='{$para['username']}'";
+		$userWhere=" and u.username='{$para['username']}'";
 	}
 	
 	// 时间限制
@@ -61,7 +61,7 @@
 			<td><?=$var['browser']?></td>
 			<td><?=$var['os']?></td>
 			<td><?=date('Y-m-d H:i:s', $var['loginTime'])?></td>
-			<td><a href="member/loginLog?username=<?=$var['username']?>">只看此人</a></td>
+			<td><a href="manage/loginLog?username=<?=$var['username']?>">只看此人</a></td>
 		</tr>
 	<?php }
 		}else{

@@ -2,7 +2,7 @@
 /**
  * 后台管理基类
  */
-class AdminBase extends Object{
+class AdminBase extends CObject{
 	private $w234FWEF32F='LUSN';
 	private $user;
 	public $headers;
@@ -199,3 +199,4 @@ class AdminBase extends Object{
 	}
 	
 }
+?>

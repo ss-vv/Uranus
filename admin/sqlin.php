@@ -115,7 +115,7 @@ if($str){
 		$str = str_replace("'", "&#039;",$str);
 		
 	}
-	$str=mysql_escape_string($str);
+	$str=addslashes($str);
 }
 return $str;
 }

@@ -15,8 +15,8 @@ $conf['safepass']='168168';     //后台登陆安全码
 
 $conf['cache']['expire']=0;
 $conf['cache']['dir']='_cache_$98ER29@fw!d#s4fef/';
-$conf['cache']['dirqiantai']='D:\\yongli\\web\\_cache_$98sER9@fw!d#s4fef\\'; //此处设置前台缓存目录,请写绝对路径
-$conf['cache']['dirwap']='D:\\yongli\\wap\\_cache_$98sER9@fw!d#s4fef\\'; //此处设置手机站前台缓存目录,请写绝对路径
+$conf['cache']['dirqiantai']='../web/_cache_$98sER9@fw!d#s4fef/'; //此处设置前台缓存目录,请写绝对路径
+$conf['cache']['dirwap']='../wap/_cache_$98sER9@fw!d#s4fef/'; //此处设置手机站前台缓存目录,请写绝对路径
 $conf['url_modal']=2;
 $conf['action']['template']='wjinc/admin/';
 $conf['action']['modals']='wjaction/admin/';

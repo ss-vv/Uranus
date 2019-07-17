@@ -1,5 +1,5 @@
 <?php
-class user extends Object{
+class user extends CObject{
 	private $vcodeSessionName='vcode-session-name';
 	function __construct($dsn, $user='', $password=''){
 		session_start();
