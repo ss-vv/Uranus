@@ -26,7 +26,7 @@ if ($this->type == 70 || $this->type == 74) {
 } else {
     $data = $this->getRows("select * from {$this->prename}data where type={$this->type} and time >= '{$dateStr}' and time <= '{$dateStr2}' order by number desc,time desc limit 20");
 	for($i=0;$i<count($data);$i++){
-		$data[$i]['number']=substr($data[$i]['number'],8);
+		$data[$i]['number']=substr($data[$i]['number'],0);
 	}
 }
 $types = $this->getTypes();
